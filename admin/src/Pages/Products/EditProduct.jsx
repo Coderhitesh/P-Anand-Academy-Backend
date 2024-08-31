@@ -174,7 +174,7 @@ const EditProduct = () => {
 
         try {
             const formDataToSend = new FormData();
-
+//i love
             for (const key in formData) {
                 if (key === 'courseMode') {
                     formDataToSend.append(key, JSON.stringify(formData[key]));
